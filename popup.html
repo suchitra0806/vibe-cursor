@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Vibe Cursor</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="header">
+        <span class="dot"></span>
+        <h1>Vibe Cursor</h1>
+      </div>
+
+      <label class="toggle-row">
+        <span>Enabled</span>
+        <input type="checkbox" id="enabled" />
+      </label>
+
+      <div class="moods" id="moods">
+        <button class="mood-btn" data-mood="calm">😌 Calm</button>
+        <button class="mood-btn" data-mood="hype">🔥 Hype</button>
+        <button class="mood-btn" data-mood="cozy">☕ Cozy</button>
+        <button class="mood-btn" data-mood="chaotic">🤪 Chaotic</button>
+      </div>
+
+      <p class="hint">Move your cursor around any page to see it in action.</p>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
